@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Caritas</string>
+    <string name="txtRua">Rua:</string>
+    <string name="txtNumero">Número da casa:</string>
+    <string name="txtBairro">Bairro:</string>
+    <string name="txtSelecionaResp">Selecione um responsável:</string>
+    <string name="txtNome">Nome:</string>
+    <string name="txtRA">RA:</string>
+    <string name="txtNIS">NIS:</string>
+    <string name="txtDataNasci">Data de nascimento:</string>
+    <string name="txtBuscaCEP">Buscar endereço por CEP:</string>
+    <string name="txtBtnBuscar">Buscar</string>
+    <string name="txtBtnSalvar">Salvar</string>
+    <string name="txtBtnAtt">Salvar Alterações</string>
+    <string name="txtRG">RG:</string>
+    <string name="txtSelecionarTurma">Selecione uma turma:</string>
+    <string name="txtSelecioneAtend">Selecione um atendido:</string>
+    <string name="txtCPF">CPF:</string>
+    <string name="txtTelefone">Telefone:</string>
+    <string name="txtSelecionarPeriodo">Selecione um período:</string>
+    <string name="txtSelecionarInst">Selecione um instrutor:</string>
+    <string name="txtNovo">+</string>
+    <string name="txtBtnRefresh">Atualizar</string>
+    <string name="txtBtnMatricula">Matricular</string>
+    <string name="txtInstrutor">Instrutores</string>
+    <string name="txtAtendido">Atendidos</string>
+    <string name="txtResponsavel">Responsáveis</string>
+    <string name="txtTurma">Turmas</string>
+    <string name="txtMatricula">Matriculas</string>
+    <string name="tit_main">Caritas</string>
+    <string name="tit_listaResponsavel">Responsáveis</string>
+    <string name="tit_editarResponsavel">Editar Responsável</string>
+    <string name="tit_cadastrarAtendido">Cadastrar Atendido</string>
+    <string name="tit_listarAtendido">Atendidos</string>
+    <string name="tit_editarAtendido">Editar Atendido</string>
+    <string name="tit_cadastrarInstrutor">Cadastrar Instrutor</string>
+    <string name="tit_editarInstrutor">Editar Instrutor</string>
+    <string name="tit_listarInstrutor">Instrutores</string>
+    <string name="tit_cadastrarTurma">Cadastrar Turma</string>
+    <string name="tit_editarTurma">Editar Turma</string>
+    <string name="tit_listarTurma">Turmas</string>
+    <string name="tit_editarMatricula">Editar Matrícula</string>
+    <string name="tit_listarMatricula">Matrículas</string>
+    <string name="tit_novaMatricula">Matricular</string>
+    <string name="txtUsuario">Usuário:</string>
+    <string name="txtSenha">Senha:</string>
+    <string name="txtBtnLogin">Entrar</string>
+    <string name="txtConfirmaSenha">Confirme a senha:</string>
+    <string name="txtBtnRegistrar">Registrar</string>
+    <string name="txtSenhaAdm">Senha do admistrador:</string>
+    <string name="txtBtnCriaConta">Registra-se</string>
+    <string name="tit_login">Entrar</string>
+    <string name="tit_criarConta">Registra-se</string>
+    <string name="txtBtnSair">Sair</string>
+    <string name="txtBtnAlterarSenha">Alterar</string>
+    <string name="txtSenhaAtual">Senha Atual</string>
+    <string name="txtNovaSenha">Nova Senha</string>
+    <string name="txtTrocaDeSenha">Preencha os dados a seguir para trocar de senha:</string>
+    <string name="tit_attUsuario">Alterar Senha</string>
+    <string name="txtBtnTrocarSenha">Alterar Senha</string>
+    <string name="txtTurmasMatriculadas">Número de turmas matriculadas: </string>
+
+    <string-array name="periodo_array">
+        <item>Manhã</item>
+        <item>Tarde</item>
+        <item>Noite</item>
+    </string-array>
+</resources>

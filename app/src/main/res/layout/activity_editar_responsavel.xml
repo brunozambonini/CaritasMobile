@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:layout_margin="10dp"
+    tools:context=".activities.responsavel.EditarResponsavelActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtNome"
+        android:textSize="15sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/edt_nome"
+        android:hint="Nome:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textSize="14sp">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtRG"
+        android:textSize="15sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/edt_rg"
+        android:hint="RG:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:textSize="14sp">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtNIS"
+        android:textSize="15sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/edt_nis"
+        android:hint="NIS:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:textSize="14sp">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtCPF"
+        android:textSize="15sp"
+        android:textStyle="bold"></TextView>
+
+
+    <EditText
+        android:id="@+id/edt_cpf"
+        android:hint="CPF:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:textSize="14sp">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtDataNasci"
+        android:textSize="15sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/edt_data_nasci"
+        android:hint="Data Nascimento:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textSize="14sp">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtRua"
+        android:textSize="15sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/edt_rua"
+        android:hint="Rua:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textSize="14sp">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtNumero"
+        android:textSize="15sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/edt_numero"
+        android:hint="Número da casa:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:textSize="14sp">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtBairro"
+        android:textSize="15sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/edt_bairro"
+        android:hint="Bairro:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textSize="14sp">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTelefone"
+        android:textSize="15sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/edt_telefone"
+        android:hint="Telefone:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:textSize="14sp">
+    </EditText>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp">
+    </Space>
+
+    <Button
+        android:id="@+id/btn_salvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/txtBtnAtt"></Button>
+
+
+</LinearLayout>

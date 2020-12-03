@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.caritaspiapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CaritasPIApplication">
+
+        <activity android:name=".activities.usuario.UsuarioAttActivity"
+            android:label="@string/tit_attUsuario"></activity>
+
+        <activity
+            android:name=".activities.usuario.RegistrarActivity"
+            android:label="@string/tit_login" />
+        <activity
+            android:name=".activities.usuario.LoginActivity"
+            android:label="@string/tit_criarConta" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/tit_main" />
+        <activity
+            android:name=".activities.matricula.MatriculaActivity"
+            android:label="@string/tit_novaMatricula" />
+        <activity
+            android:name=".activities.matricula.ListarMatriculaActivity"
+            android:label="@string/tit_listarMatricula" />
+        <activity
+            android:name=".activities.matricula.EditarMatriculaActivity"
+            android:label="@string/tit_editarMatricula" />
+        <activity
+            android:name=".activities.turma.ListarTurmaActivity"
+            android:label="@string/tit_listarTurma" />
+        <activity
+            android:name=".activities.turma.EditarTurmaActivity"
+            android:label="@string/tit_editarTurma" />
+        <activity
+            android:name=".activities.turma.TurmaActivity"
+            android:label="@string/tit_cadastrarTurma" />
+        <activity
+            android:name=".activities.instrutor.ListarInstrutorActivity"
+            android:label="@string/tit_listarInstrutor" />
+        <activity
+            android:name=".activities.instrutor.EditarInstrutorActivity"
+            android:label="@string/tit_editarInstrutor" />
+        <activity
+            android:name=".activities.instrutor.InstrutorActivity"
+            android:label="@string/tit_cadastrarInstrutor" />
+        <activity
+            android:name=".activities.atendido.EditarAtendidoActivity"
+            android:label="@string/tit_editarAtendido" />
+        <activity
+            android:name=".activities.atendido.ListarAtendidoActivity"
+            android:label="@string/tit_listarAtendido" />
+        <activity
+            android:name=".activities.atendido.AtendidoActivity"
+            android:label="@string/tit_cadastrarAtendido" />
+        <activity
+            android:name=".activities.responsavel.EditarResponsavelActivity"
+            android:label="@string/tit_editarResponsavel" />
+        <activity
+            android:name=".activities.responsavel.ListarResponsavelActivity"
+            android:label="@string/tit_listaResponsavel" />
+        <activity android:name=".activities.responsavel.ResponsavelActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".activities.instrutor.InstrutorActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtNome"
+        android:textSize="15sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/edt_nome"
+        android:hint="Nome:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textSize="14sp">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtRG"
+        android:textSize="15sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/edt_rg"
+        android:hint="RG:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:textSize="14sp">
+    </EditText>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp">
+    </Space>
+
+    <Button
+        android:id="@+id/btn_salvarInstrutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/txtBtnSalvar"></Button>
+
+
+</LinearLayout>
